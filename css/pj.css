@@ -1,0 +1,42 @@
+body {
+    text-align: left;
+    font-size: 0.9em;
+    font-family: Menlo;
+    padding: 0px 17px 11px;
+}
+td {
+    vertical-align: top;
+    padding: 11pt 2pt 0px 0px;
+}
+strong {
+    /* text-shadow: 4px 4px 3px #77f;  */
+    border-bottom: 4px solid rgb(88, 88, 243);
+}
+td.speaker {
+    /* color: blue; */
+    /* font-weight: bold; */
+    font-style: oblique;
+    text-decoration: underline rgb(88, 88, 243);
+    /* background-color: rgb(88, 88, 243,0.3);  */
+}
+a {
+    text-decoration: none;
+    color: green;
+    /* border: 5pt solid transparent; */
+}
+a:hover {
+    padding-bottom: 0px;
+    border-bottom: 4px solid rgba(88, 88, 243, 0.5);
+    border-top: 4px solid rgba(88, 88, 243, 0.5);
+    color: greenyellow;
+    background-color: rgba(88, 88, 243, 0.3);
+}
+body.four04{
+    background-color:black;
+    background:url('img/chalkbg.jpg');
+}
+div.four04{
+    text-align:center;
+    font-size:2.7em;
+    color:white;
+}
