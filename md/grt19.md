@@ -12,4 +12,4 @@ Front for the GRT research seminar 2019
 | Oct 18 | Linhui Shen | | 
 | Oct 25 | Chris Elliott | | 
 | Nov 1 | Sasha Shapiro & Andrei Okounkov | |
-| Nov 22 | Ivan Danilenko | | | 
+| Nov 22 | Ivan Danilenko | Slices of the Affine Grassmannian and Quantum Cohomology | The Affine Grassmannian is an ind-scheme associated to a reductive group $G$. It has a cell structure similar to the one in the usual Grassmannian. Transversal slices to these cells give an interesting family of Poisson varieties. Some of them admit a smooth symplectic resolution and have an interesting geometry related to the representation theory of the Langlands dual group $G^\vee$. We will focus on equivariant cohomology of such resolutions and will show how the trigonometric Knizhnik-Zamolodchikov equation arises as a quantum differential equation in this setting. | 
