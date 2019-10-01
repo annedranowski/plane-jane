@@ -1,4 +1,5 @@
 img/*
+notes/*
 .DS_Store
 # ignore temp table html
 tt.html
