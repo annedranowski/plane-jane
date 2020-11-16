@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anne Dranowski</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <style>
+        .wrapper {
+            height: min(500px,100%);
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            font-size: 29pt;
+            font-family: 'Inconsolata';
+            /* padding: 15px 17px; */
+            text-align: center;
+            display: grid;
+            grid-template-areas:
+                "t t t"
+                "s s s"
+                "s1 p s3"
+                /* "s2 p s4" */
+                /* "s5 p s6" */
+                "s7 s7 s7"
+                /* "p3 s8 p4" */
+                "f f f";
+            /* column-gap: 11px; */
+            row-gap: 15px;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-columns: 10% 70% 10%; */
+            grid-template-rows: 2fr 2fr 4fr 2fr 1fr;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            /* align-content: end; */
+            /* fixing for mobile adjustments */
+            text-size-adjust: none;
+            -webkit-text-size-adjust: none;
+            -moz-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        footer {
+            font-size: 11pt;
+            text-align: center;
+            grid-area: f;
+        }
+
+        div.title {
+            font-size: 52pt;
+            grid-area: t;
+            /* padding: 5pt; */
+            /* font-size: 52pt; */
+            /* font-weight: bold; */
+            /* padding-bottom: -51pt; */
+        }
+
+        div.subtitle {
+            /* font-size: 29pt; */
+            text-align: center;
+            grid-area: s;
+        }
+
+        div.pic {
+            /* font-size:29pt; */
+            grid-area: p;
+            /* padding-top: -21pt; */
+            /* background-color: pink; */
+        }
+
+        div.stone1 {
+            grid-area: s1;
+            /* background-color: yellow; */
+        }
+
+        div.stone2 {
+            grid-area: s2;
+            /* background-color: teal; */
+            /* vertical-align: middle; TODO! figure out how to vertically align text so its in the middle of stuff */
+        }
+
+        div.stone3 {
+            grid-area: s3;
+            /* background-color: orange; */
+        }
+
+        div.stone4 {
+            grid-area: s4;
+            /* background-color: blue; */
+        }
+
+        div.stone5 {
+            grid-area: s5;
+            /* background-color: purple; */
+        }
+
+        div.stone6 {
+            grid-area: s6;
+            /* background-color: green; */
+        }
+
+        div.stone7 {
+            grid-area: s7;
+            /* font-size: 29pt; */
+        }
+
+        div.stone8 {
+            grid-area: s8;
+        }
+
+        a {
+            text-decoration: none;
+            color: green;
+            /* border: 5pt solid transparent; */
+        }
+
+        a:hover {
+            padding-bottom: 0px;
+            border-bottom: 5pt solid rgba(88, 88, 243, 0.5);
+            border-top: 5pt solid rgba(88, 88, 243, 0.5);
+            /* color: rgb(231, 155, 69); */
+            background-color: rgba(88, 88, 243, 0.3);
+        }
+
+        a.pica,
+        a.pica:hover {
+            border: none;
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <!-- <h1> -->
+                Hello
+            <!-- </h1> -->
+        </div>
+        <div class="subtitle">
+            <!-- <H3> -->
+            I am on the job market; <a href="https://www.dropbox.com/sh/a76ffv3futkn9po/AAC4OsvVl-H1XCW5LTWQ0eOza?dl=0">here</a> are my teaching and research statements.
+            <!-- </H3> -->
+        </div>
+        <div class="pic">
+            <!-- <a href="https://github.com/annedranowski" class="pica"> -->
+            <img id="test" src="byebyecamoballzoom.png" height="243" alt="2 + 2 = 4"> 
+            <!-- alt="My github" -->
+            <!-- </a> -->
+                    <!-- onmouseover="this.src='ghCrop.png'" onmouseout="this.src='byebyecamoballzoom.png'" -->
+        </div>
+        <!--change me back from ../img/*; future: randomize onmouseout -->
+        <!-- <div class="stone1"><a href="misc.html">Misc.</a></div> -->
+        <div class="stone7"><a href="cv.html">cv</a> | <a href="research.html">research</a> | <a href="teaching.html">teaching</a> | <a href="teaching.html">notes</a> </div>
+        <!-- home |  -->
+        <!-- <div class="stone7"><a href="research.html">Research</a></div> -->
+        <!-- <div class="stone6"><a href="ls19.html">Learning seminar</a></div> -->
+        <!-- <div class="stone4"><a href="teaching.html">Teaching</a></div> -->
+        <!-- <div class="stone5"><a href="grt20.html">Research seminar</a></div> -->
+
+        <footer>
+            <!-- <img src="telephone-auricular-hand-drawn-outline.png" height="13pt"
+            style="padding: 0 3px 0 0;">416-978-4794 
+            <img src="skype-hand-drawn-logo-outline.png" height="13pt"
+            style="padding: 0 3px 0 0;">annedranowski  -->
+            <!-- <img src="arroba-hand-drawn-symbol.png" height="13pt" style="padding: 0 3px 0 0;"><a
+            href="mailto:adranows@math.toronto.edu" class="email">adranows@math.toronto.edu</a>  -->
+            <!-- <img src="world-grid-hand-drawn-symbol.png" height="13pt" style="padding: 0 3px 0 0;"><a
+            href="http://www.math.toronto.edu/adranows/">www.math.toronto.edu/adranows</a>  -->
+            <p><a href="pubkey.html"><img src="mail-envelope-back-hand-drawn-outline.png" height="11pt"
+                    style="padding: 0 3px 0 0; vertical-align: -1.5px;"></a>IAS School of Mathematics</p>
+        </footer>
+    </div>
+</body>
+
+</html>

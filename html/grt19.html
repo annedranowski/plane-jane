@@ -2,12 +2,19 @@
 <html>
 
 <head>
+    <title>grt research seminar</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <style>
         body {
             text-align: left;
-            font-size: 0.9em;
-            font-family: Menlo;
+            font-size: 13pt;
+            font-family: 'Inconsolata';
             padding: 0px 17px 11px;
+            /* fixing for mobile adjustments */
+            text-size-adjust: none;
+            -webkit-text-size-adjust: none;
+            -moz-text-size-adjust: none;
+            -ms-text-size-adjust: none;
         }
 
         td {
@@ -24,7 +31,8 @@
             /* color: blue; */
             /* font-weight: bold; */
             font-style: oblique;
-            text-decoration: underline rgb(88, 88, 243);
+            text-decoration: underline;
+            text-decoration-color: rgb(88, 88, 243);
             /* background-color: rgb(88, 88, 243,0.3);  */
         }
     </style>
@@ -33,6 +41,8 @@
 <body>
     <div>
         <H1>Front for the GRT research seminar 2019</H1>
+        <div>The "back" is at <a href="http://www.fields.utoronto.ca/activities/19-20/geomrep">Fields</a>.</div>
+        </br>
         <div>
             <strong>Organizers:</strong> Sasha Braverman, Balazs Elek, Michael Groechenig, Joel Kamnitzer and Changjian
             Su
@@ -46,12 +56,6 @@
         <div>
             <h2>Schedule</h2>
             <table>
-                <colgroup>
-                    <col style="width: 3%" />
-                    <col style="width: 3%" />
-                    <col style="width: 5%" />
-                    <col style="width: 85%" />
-                </colgroup>
                 <thead>
                     <tr class="header">
                         <th>Day</th>
@@ -66,7 +70,8 @@
                         <td class="speaker">Andrey Smirnov</td>
                         <td>3d mirror symmetry for elliptic stable envelopes</td>
                         <td>In this talk I will describe the elliptic stable envelope classes introduced recently by
-                            M.Aganagic and A. Okounkov. I will discuss some properties of these classes expected from 3d
+                            M. Aganagic and A. Okounkov. I will discuss some properties of these classes expected from
+                            3d
                             mirror symmetry. The plan is to consider the case of <span
                                 class="math inline"><em>X</em> = <em>T</em><sup>*</sup>ℙ<sup>1</sup></span> in all
                             details and then discuss known and expected generalizations.</td>
@@ -137,33 +142,114 @@
                     <tr class="even">
                         <td>Oct 11</td>
                         <td class="speaker">Iva Halacheva</td>
-                        <td></td>
-                        <td></td>
+                        <td>From puzzles to Lagrangian correspondences: a branching story</td>
+                        <td>Puzzles in Schubert calculus were originally developed by Knutson and Tao as combinatorial
+                            objects for computing the expansion of the product of two Grassmannian Schubert classes. I
+                            will present a puzzle rule for restricting type A Schubert classes for the Grassmannian to
+                            type C in equivariant cohomology. The proof uses the machinery of quantum integrable
+                            systems. I will then describe work in progress toward an extension of this rule to cotangent
+                            bundles in the context of Lagrangian correspondences between symplectic resolutions and
+                            Maulik—Okounkov classes. This is joint work with A. Knutson and P. Zinn-Justin.</td>
                     </tr>
                     <tr class="odd">
                         <td>Oct 18</td>
                         <td class="speaker">Linhui Shen</td>
-                        <td></td>
-                        <td></td>
+                        <td>Double Bott-Samelson cells and cluster algebras</td>
+                        <td>We introduce the double Bott-Samelson cell associated to an arbitrary Kac-Moody group <span
+                                class="math inline"><em>G</em></span> and a pair of positive braids <span
+                                class="math inline">(<em>b</em>, <em>d</em>)</span>. We prove that the double
+                            Bott-Samelson cells are affine varieties whose coordinate rings are upper cluster algebras.
+                            We describe the Donaldson-Thomas transformation on double Bott-Samelson cells. As an
+                            application, we obtain a new geometric proof of Zamolodchikov’s periodicity conjecture in
+                            the cases of type <span class="math inline"><em>Δ</em> ⊗ <em>A</em></span>. If time permits,
+                            I will further talk about its connections with Knot theory and quantum groups. This is joint
+                            work with Daping Weng.</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Oct 23, 1 pm-2:30 pm</td>
+                        <td class="speaker">Jose Simental Rodriguez</td>
+                        <td>Finite-dimensional representations of quantized Gieseker varieties</td>
+                        <td>Quantized Gieseker algebras arise as the quantum Hamiltonian reduction of the algebra of
+                            differential operators on the framed representation space of the Jordan quiver. Examples of
+                            these include algebras of differential operators on projective space as well as type <span
+                                class="math inline"><em>A</em></span> spherical rational Cherednik algebras. It turns
+                            out that when a quantized Gieseker algebra admits a finite-dimensional representation, the
+                            category of its finite-dimensional representations is equivalent to that of vector spaces. I
+                            will give all necessary definitions and then explain how the unique irreducible
+                            finite-dimensional representation of the quantized Gieseker algebra can be obtained from the
+                            finite-dimensional representation of the type <span class="math inline"><em>A</em></span>
+                            (full) rational Cherednik algebra, which allows us to compute the dimension (and character)
+                            of this representation. This is joint work with P. Etingof, V. Krylov and I. Losev.</td>
                     </tr>
                     <tr class="even">
                         <td>Oct 25</td>
                         <td class="speaker">Chris Elliott</td>
-                        <td></td>
-                        <td></td>
+                        <td>A Catalogue of Twists for Supersymmetric Quantum Field Theory</td>
+                        <td>The theory of Factorization Algebras, developed by Costello and Gwilliam, provides a
+                            mathematical way of studying quantum field theory. In this talk I’ll discuss joint work with
+                            Pavel Safronov and Brian Williams, in which we develop the theory of “topological twisting”
+                            for supersymmetric theories using this technology. This is a procedure that starts with a
+                            supersymmetric quantum field theory on <span
+                                class="math inline">ℝ<sup><em>n</em></sup></span> that depends on a choice of Riemannian
+                            metric, and produces a new quantum field theory that is defined on more general <span
+                                class="math inline"><em>n</em></span>-manifolds, and only depends on a coarser structure
+                            than a metric such as a choice of orientation. We classify and describe all examples of
+                            quantum field theories in all dimensions that arise by twisting a supersymmetric gauge
+                            theory.</td>
                     </tr>
                     <tr class="odd">
-                        <td>Nov 1</td>
-                        <td class="speaker">Sasha Shapiro &amp; Andrei Okounkov</td>
-                        <td></td>
-                        <td></td>
+                        <td>Nov 1, 1 pm -2:30</td>
+                        <td class="speaker">Andrei Okounkov</td>
+                        <td><span class="math inline">3<em>d</em></span>-mirror symmetry and real life</td>
+                        <td>Three-dimensional mirror symmetry (also known as symplectic duality, and under other names),
+                            is a beautiful idea that drives a lot of current research in enumerative geometry and
+                            geometric representation theory. The talk will be contain an introduction to the subject, an
+                            overview of how it appears in more familiar parts of mathematics (e.g. Macdonald theory),
+                            and, time permitting, some description of ideas that are used in actual proofs.</td>
                     </tr>
+                    <tr class="odd">
+                        <td>Nov 1, 2:30 pm- 4:00</td>
+                        <td class="speaker">Sasha Shapiro</td>
+                        <td>Cluster structure on K-theoretic Coulomb branches</td>
+                        <td>It was conjectured by Gaiotto, that (quantized) K-theoretic Coulomb branches of <span
+                                class="math inline">3<em>d</em>𝒩 = 4</span> SUSY gauge theories, as defined by
+                            Braverman, Finkelberg, and Nakajima, bear structure of (quantum) cluster varieties. I will
+                            outline a proof of this conjecture for quiver gauge theories, provided that the quiver does
+                            not have loops. In relation to this conjecture, I will also discuss why positive and
+                            Gelfand-Tsetlin representations of quantum groups are unitary equivalent, and how to
+                            construct higher rank Fenchel–Nielsen coordinates on moduli spaces of <span
+                                class="math inline"><em>P</em><em>G</em><em>L</em><sub><em>n</em></sub></span> local
+                            systems. This is a joint work with Gus Schrader.</td>
+                    </tr>
+                    <tr class="even">
+                        <td>Nov 13</td>
+                        <td class="speaker">Dan Kaplan</td>
+                        <td>The Structure of Multiplicative Preprojective Algebras</td>
+                        <td>Crawley-Boevey defined deformed preprojective algebras as a means of viewing solutions to
+                            the additive Deligne-Simpson problem as irreducible representations of these algebras. In
+                            the same vein, Crawley-Boevey-Shaw defined multiplicative preprojective algebras (MPAs) to
+                            encode solutions of the multiplicative Deligne-Simpson problem. For historical motivation,
+                            I’ll present the ideas behind these two constructions. More recently, MPAs have gained
+                            popularity in geometry thanks to work of Van den Bergh, Yamakawa, Etgu-Lekili, and
+                            Bezrukavnikov-Kapranov, among others. In joint work with Travis Schedler, we ask which
+                            algebraic properties of preprojective algebras still hold for MPAs. We prove that the
+                            behavior is similar for quivers containing a cycle, as the MPA is 2-Calabi-Yau and prime,
+                            with trivial center when the containment is proper. Moreover, the MPA for a cycle is a
+                            non-commutative resolution of its center. I’ll summarize the key ideas behind this work
+                            without assuming intimate knowledge of preprojective algebras.</td>
                     </tr>
                     <tr class="odd">
                         <td>Nov 22</td>
                         <td class="speaker">Ivan Danilenko</td>
                         <td>Slices of the Affine Grassmannian and Quantum Cohomology</td>
-                        <td>The Affine Grassmannian is an ind-scheme associated to a reductive group <span class="math inline"><em>G</em></span>. It has a cell structure similar to the one in the usual Grassmannian. Transversal slices to these cells give an interesting family of Poisson varieties. Some of them admit a smooth symplectic resolution and have an interesting geometry related to the representation theory of the Langlands dual group <span class="math inline"><em>G</em><sup>∨</sup></span>. We will focus on equivariant cohomology of such resolutions and will show how the trigonometric Knizhnik-Zamolodchikov equation arises as a quantum differential equation in this setting.</td>
+                        <td>The Affine Grassmannian is an ind-scheme associated to a reductive group <span
+                                class="math inline"><em>G</em></span>. It has a cell structure similar to the one in the
+                            usual Grassmannian. Transversal slices to these cells give an interesting family of Poisson
+                            varieties. Some of them admit a smooth symplectic resolution and have an interesting
+                            geometry related to the representation theory of the Langlands dual group <span
+                                class="math inline"><em>G</em><sup>∨</sup></span>. We will focus on equivariant
+                            cohomology of such resolutions and will show how the trigonometric Knizhnik-Zamolodchikov
+                            equation arises as a quantum differential equation in this setting.</td>
                     </tr>
                 </tbody>
             </table>

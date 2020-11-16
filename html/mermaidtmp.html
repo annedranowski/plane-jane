@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ls19</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+  <script src="mermaid.min.js"></script>
+  <script>mermaid.initialize({startOnLoad:true});</script>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<h1 id="grt-learning-seminar-2019">Grt learning seminar 2019</h1>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Day</th>
+<th>Speaker</th>
+<th>Title</th>
+<th>Abstract</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Sept 20</td>
+<td>Stefan Dawydiak</td>
+<td><a href="https://hackmd.io/@adranows/HJhS8uGwB/edit">Refresher</a></td>
+<td>Based on examples from e.g. <a href="https://pdfs.semanticscholar.org/4b96/c05430d9c9af2beee88f2fa58628b9540d8d.pdf">Justin Campbell’s notes</a>.</td>
+</tr>
+<tr class="even">
+<td>Sept 27</td>
+<td>Dylan Butson</td>
+<td><a href="db1.pdf">Overview</a></td>
+<td>I will give an overview talk about the first few topics of the seminar, which are: <span class="math inline"><em>D</em></span> modules, the Riemann-Hilbert correspondence, and Beilinson-Bernstein localization. I will try to give a very explicit, calculation-based introduction to these topics, focusing on the example of <span class="math inline">ℙ<sup>1</sup></span> (which will explain the representation theory of <span class="math inline">𝔰𝔩<sub>2</sub></span>) without worrying too much about technical points. In the following weeks we will try to fill in the details of these arguments, but I thought it would be good for everyone to be on the same page about what we’re trying to understand, so that we’re motivated for the more technical talks.</td>
+</tr>
+<tr class="odd">
+<td>Oct 4</td>
+<td>Benjamin Gammage</td>
+<td><a href="bg1.pdf">Introduction to Springer Theory</a></td>
+<td>We survey some main ideas surrounding springer theory, focusing on simple examples. References: <a href="https://arxiv.org/pdf/0712.0349.pdf">de Cataldo-Migliorini Section 4.2</a>, <a href="https://arxiv.org/pdf/1602.01451.pdf">Yun Lecture 1</a>, <a href="https://people.math.umass.edu/~celliott/Borho_Macpherson_talk.pdf">Chris Elliott’s talk notes on a related paper</a>, and Nadler’s general perspective of which a brief summary can be found at the beginning of <a href="https://arxiv.org/pdf/1302.7053.pdf">this paper</a>.</td>
+</tr>
+<tr class="even">
+<td>Oct 11</td>
+<td>Balazs Elek</td>
+<td><a href="be1.pdf">Geometry of the Flag Variety</a></td>
+<td>We will review some geometry of the flag variety and introduce Bott-Samelson varieties in order to do some computations generalizing those we saw on <span class="math inline">ℙ<sup>1</sup></span> for <span class="math inline"><em>S</em><em>L</em><sub>2</sub></span>.</td>
+</tr>
+<tr class="odd">
+<td>Oct 18</td>
+<td>Dylan Butson</td>
+<td><a href="db3.pdf">Technical Introduction to <span class="math inline"><em>D</em></span> modules/Beilinson-Bernstein Localization for <span class="math inline"><em>S</em><em>L</em><sub>3</sub></span></a></td>
+<td>In the first half, I will give a more careful introduction to the theory of <span class="math inline"><em>D</em></span> modules. In the second half, I will give a detailed statement of the Beilinson-Berstein equivalence and revisit the derivation of the BGG resolution for <span class="math inline"><em>L</em>(0)</span> from the geometry of the flag variety in the <span class="math inline"><em>S</em><em>L</em><sub>2</sub></span> and <span class="math inline"><em>S</em><em>L</em><sub>3</sub></span> examples, following the calculations Balazs Elek explained last time. <a href="db2.pdf">Attached are some notes</a> I wrote about the 6 functors formalism for <span class="math inline"><em>D</em></span> modules. I won’t exactly follow these notes in my talk, but they carefully explain the conventions that I will use (which are not completely standard, despite being canonical) and might be helpful to look at before/during/after the talk. This should be the last talk on BB localization and D modules for now, but we will return to these topics when we discuss the proof of the Kahzdan-Lusztig conjectures.</td>
+</tr>
+<tr class="even">
+<td>Oct 25</td>
+<td>Stefan Dawydiak</td>
+<td><a href="sd1.pdf">Reminder on perverse sheaves and the equivariant derived category</a></td>
+<td>In the first half, I’ll give a reminder on perverse sheaves, beginning with recalling the definition of the perverse <span class="math inline"><em>t</em></span>-structure on <span class="math inline"><em>D</em><sub><em>c</em></sub><sup><em>b</em></sup>(<em>X</em>)</span> before recalling the various exactness results we proved last year. These will be illustrated by a series of example computations, which will be either parallel to computations we’ve hopefully all seen in category <span class="math inline">𝒪</span>, or will be continuations of the exercises done in the first reminder talk on constructible sheaves. The second half will introduce the Bernstein-Lunts equivariant derived category. Equivariant derived categories will feature heavily in the applications chapters, and we’ll begin by briefly motivating them by considering their analogues on the level of functions. We will follow a mixture of Achar ch. 6 and Ch. 2 and 3 of Bernstein, Lunts, Equivariant sheaves and functors.</td>
+</tr>
+<tr class="odd">
+<td>Nov 1</td>
+<td>Dylan Butson</td>
+<td><a href="db4.pdf">The Riemann-Hilbert correspondence, toward the proof of the Kazhdan-Lusztig conjecture</a></td>
+<td>In the first half, I will outline a proof of the Riemann-Hilbert correspondence. In the second half, I will discuss equivariant <span class="math inline"><em>D</em></span> modules, the relation of equivariance to integrability of <span class="math inline">𝔤</span>-modules under Beilinson-Bernstein localization, and explain how this allows us to reduce the Kazhdan-Lusztig conjecture to a statement about <span class="math inline"><em>B</em></span> equivariant sheaves on <span class="math inline"><em>G</em>/<em>B</em></span>.</td>
+</tr>
+<tr class="even">
+<td>Nov 8</td>
+<td>Stefan Dawydiak</td>
+<td><a href="sd2.pdf">Statement of proof of the Kazhdan-Lusztig conjecture</a></td>
+<td>In the first part of the talk, I’ll define the Hecke algebra and formulate Kazhdan-Lusztig conjectures. The Hecke algebra is equipped with three natural bases and an involution, and we will see what this data corresponds to in each of the pictures I’ll talk about the category of <span class="math inline"><em>B</em></span>-equivariant perverse sheaves on <span class="math inline"><em>G</em>/<em>B</em></span> and how to convolve them (it is this operation which requires visiting the equivariant derived category), which will lead to a categorification of the Hecke algebra in terms of the additive category of the so-called semisimple complexes. From here we will be able to prove the conjecture and comment on categorifications of Hecke algebras in other contexts. The talk is based primarily on sections 7.1 through 7.3 of Achar, but see also Kostya’s notes from the seminar last year for an alternative proof of the Kazhdan-Lusztig conjectures which does not require the equivariant derived category, but which also does not give a categorification of the Hecke algebra.</td>
+</tr>
+<tr class="odd">
+<td>Nov 15</td>
+<td>Pavel Shlykov</td>
+<td>Preliminaries on Springer correspondence</td>
+<td>I will try to review the Chriss-Ginzburg style construction of the Springer correspondence and show you by the clumsiness of my computations, that perverse sheaves (which I won’t use at all) should be a better tool.</td>
+</tr>
+<tr class="even">
+<td>Nov 22</td>
+<td>Suriya Raghavendran</td>
+<td>More on the Springer correspondence</td>
+<td>TBA</td>
+</tr>
+<tr class="odd">
+<td>Nov 29</td>
+<td>Anne Dranowski</td>
+<td>Geoemtric Satake correspondece 1</td>
+<td>TBA</td>
+</tr>
+<tr class="even">
+<td>Dec 6</td>
+<td>Roger Bai</td>
+<td>Geometric Satake correspondence 2</td>
+<td>TBA</td>
+</tr>
+<tr class="odd">
+<td>X</td>
+<td>Y</td>
+<td>Z</td>
+<td>References: <a href="beil.pdf">Coherent sheaves on <span class="math inline">ℙ<sup><em>n</em></sup></span> and problems of linear algebra</a></td>
+</tr>
+</tbody>
+</table>
+<!-- Dylan Butson Oct 18 We will give a technical introduction to the theory of $D$ modules and write down resolutions in terms of moment graphs.
+Stefan Dawydiak Oct 25 Give a recap about perverse and constructible sheaves, and define the equivariant derived category following chapter 6 in Achar. -->
+<div class="mermaid">
+  graph LR
+    A[principal block of category O] --> B[B-equivariant D-modules on G/B]
+    B --> C[B-equivariant sheaves on G/B]
+</div>
+</body>
+</html>
