@@ -4,18 +4,47 @@
 <head>
         <title>research</title>
         <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
         <style>
                 body {
                         text-align: left;
                         font-size: 13pt;
                         font-family: 'Inconsolata';
                         /* padding: 0px 17px 11px; */
-                        padding: 5% 10% 5% 10%;
+                        color: #1b1d36; 
+                        padding: 5% 15% 5% 15%;
                         /* fixing for mobile adjustments */
                         text-size-adjust: none;
                         -webkit-text-size-adjust: none;
                         -moz-text-size-adjust: none;
                         -ms-text-size-adjust: none;
+                        background: repeating-linear-gradient(
+                        /* to right, */
+                        60deg,
+                        /* #f6ba52,
+                        #f6ba52 10px,
+                        #ffd180 10px,
+                        #ffd180 20px */
+                        /* #473729 0%,
+                        #473729 5%, */
+                        #d9d9d6 0%,
+                        #d9d9d6 5%,
+                        #deb83b 5%,
+                        #deb83b 10%,
+                        /* #7566a0 30%,
+                        #7566a0 40%, */
+                        #b2b1b2 10%,
+                        #b2b1b2 90%,
+                        /* #1b1d36 90%,
+                        #1b1d36 95%, */
+                        rgb(117,102,160) 90%,
+                        rgb(117,102,160) 95%,
+                        #d9d9d6 95%,
+                        #d9d9d6  100%
+                        );
                 }
 
                 footer {
@@ -29,30 +58,30 @@
                 }
 
                 strong {
-                        /* text-shadow: 4px 4px 3px #77f;  */
-                        border-bottom: 4px solid rgb(88, 88, 243);
+                        /* border-bottom: 4px solid rgb(117,102,160); */
+                        border-bottom: 4px solid #d9d9d6;
+                        /* font-weight: 900; */
                 }
 
-                td.speaker {
-                        /* color: blue; */
-                        /* font-weight: bold; */
+                /* td.speaker {
+                        color: blue; */
+                        /* font-weight: bold;
                         font-style: oblique;
                         text-decoration: underline rgb(88, 88, 243);
-                        /* background-color: rgb(88, 88, 243,0.3);  */
-                }
+                        background-color: rgb(88, 88, 243,0.3); 
+                } */
 
                 a {
                         text-decoration: none;
-                        color: green;
+                        color: rgb(117,102,160);
+                        font-weight: 600;
                         /* border: 5pt solid transparent; */
                 }
 
                 a:hover {
-                        padding-bottom: 0px;
-                        border-bottom: 4px solid rgba(88, 88, 243, 0.5);
-                        border-top: 4px solid rgba(88, 88, 243, 0.5);
-                        /* color: rgb(136, 182, 66); */
-                        background-color: rgba(88, 88, 243, 0.3);
+                        /* background-color:  rgb(117,102,160); */
+                        color: rgb(222,184,59);
+                        /* outline: 5pt solid rgb(217,217,214); */
                 }
 
                 a.pica,
@@ -78,7 +107,7 @@
                 <!-- <p><strong>Manuscripts submitted, but not yet accepted</strong></p> -->
                 <!-- <p>Dranowski, A., <em>Generalized orbital varieties for Mirkovic–Vybornov slices as affinizations of -->
                 <!-- Mirkovic–Vilonen cycles</em>, <code>arXiv:1905.08174</code> (2019)</p> -->
-                <p><strong>Refereed publications</strong></p>
+                <h3><strong>Refereed publications</strong></h3>
                 <p>Baumann, P. and Kamnitzer, J. and Knutson, A., <em>The Mirkovic–Vilonen basis and Duistermaat–Heckman
                         measures</em> with an appendix by Dranowski, A., Kamnitzer, J. and Morton-Ferguson, C., Acta (2019)
                 <a href="https://arxiv.org/abs/1905.08460">arXiv:1905.08460</a><a class="pica"
@@ -93,7 +122,7 @@
                                 href="https://arxiv.org/abs/1509.02454">arXiv:1509.02454</a></p>
                 <h2>Ongoing projects</h2>
                 <div>
-                        <strong>The semicanonical basis and reverse plane partitions</strong>
+                        <h3><strong>Reverse plane partitions and quivers</strong></h3>
                         <p>Reverse plane partitions are order reversing maps of minuscule posets of type ADE. We show that they form a crystal, and that this crystal is equivalent to that which is formed by a corresponding subvariety of Lusztig's nilpotent variety of modules over the preprojective algebra.</p>
                                 <!-- , i.e. positive roots supported at a given minuscule root. -->
                         
@@ -109,7 +138,7 @@
                         <!-- <p>We are investigating connections to <u>Minuscule reverse plane partitions via quiver representations</u> by Garver-Patrias-Thomas. In particular, we ask what effect toggling has on the semicanonical basis.</p> -->
                 </div>
                 <div>
-                        <strong>Comparing the MV basis and the KLR basis</strong>
+                        <h3><strong>Comparing the MV basis and the KLR basis</strong></h3>
                         <p>This project aims to make precise the relation between Lusztig’s canonical basis and the MV basis by using Hilbert series to study supports of certain modules over the parity KLRW algebra <span class="math inline"><em></em><sub>−</sub>𝒫</span> (a data enriched Webster variation on the Khovanov-Lauda-Rouquier algebra, whose simple modules are in crystal isomorphism with Lusztig’s canonical basis).</p>
 <p>In <a href="https://arxiv.org/abs/1806.07519">KTTWY</a>, the authors showed that the category of modules over <span class="math inline"><em></em><sub>−</sub>𝒫</span> and the category <span class="math inline">𝒪</span> of a truncated and shifted Yangian are equivalent. Two consequences of interest to us are:</p>
 <ol type="1">
@@ -123,7 +152,7 @@
                                 supports of simples for the parity KLRW algebra by analyzing their Hilbert series. In particular, we compare the basis of MV cycles and the KLR basis, which is equivalent to Lusztig's canonical basis.</p> -->
                 </div>
                 <div>
-                        <strong>Polynomial solutions of qKZ via geometric Satake</strong>
+                        <h3><strong>Polynomial solutions of qKZ via geometric Satake</strong></h3>
                         <p>Solutions to the divided difference version of the classical KZ equation, the so-called qKZ can be constructed using:</p>
 <ol type="1">
 <li>quantum conformal blocks over configuration spaces as in Felder &amp; Veselov (2007),</li>
@@ -143,20 +172,20 @@
                         </p> -->
                 </div>
                 <div>
-                        <strong>Convolutions of MV cycles and cluster algebras</strong>
+                        <h3><strong>Convolutions of MV cycles and cluster algebras</strong></h3>
                 </div>
                 <div>
-                        <strong>Ideals of MV cycles</strong>
+                        <h3><strong>Ideals of MV cycles</strong></h3>
                 </div>
                 <div>
-                        <strong>Derived geometric Satake</strong>
+                        <h3><strong>Derived geometric Satake</strong></h3>
                 </div>
         </div>
         <footer>
-               <p><img src="mail-envelope-back-hand-drawn-outline.png" height="11pt"
-                        style="padding: 0 3px 0 0; vertical-align: -1.5px;">IAS School of Mathematics</p> 
+                       <p><a href="index.html">home</a> | <a href="cv.html">cv</a> | research | <a href="scribbles.html">scribbles</a> </p>
 
-                       <p> <a href="index.html">home</a> | <a href="cv.html">cv</a> | research </p>
+                       <p>Anne Dranowski <img src="mail-envelope-back-hand-drawn-outline.png" height="11pt"
+                        style="padding: 0 3px 0 0; vertical-align: -1.5px;"> IAS School of Mathematics</p> 
         </footer>
 </body>
 

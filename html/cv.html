@@ -7,6 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <title>cv</title>
   <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap" rel="stylesheet">
   <style>
     body {
       /* margin-left: auto; */
@@ -15,13 +19,39 @@
       text-align: left;
       font-size: 13pt;
       font-family: 'Inconsolata';
-      /* padding: 0px 17px 11px; */
-      padding: 5% 10% 5% 10%;
+      color: #1b1d36; 
+      padding: 5% 15% 5% 15%;
       /* fixing for mobile adjustments */
       text-size-adjust: none;
       -webkit-text-size-adjust: none;
       -moz-text-size-adjust: none;
       -ms-text-size-adjust: none;
+      /* background: #b2b1b2; */
+      background: repeating-linear-gradient(
+                        /* to right, */
+                        60deg,
+                        /* #f6ba52,
+                        #f6ba52 10px,
+                        #ffd180 10px,
+                        #ffd180 20px */
+                        /* BROWN #473729 */
+                        #d9d9d6 0%,
+                        #d9d9d6 5%,
+                        #deb83b 5%,
+                        #deb83b 10%,
+                        /* #1b1d36 5%,
+                        #1b1d36 10%, */
+                        /* #7566a0 30%,
+                        #7566a0 40%, */
+                        #b2b1b2 10%,
+                        #b2b1b2 90%,
+                        /* #1b1d36 90%, */
+                        /* #1b1d36 95%, */
+                        rgb(117,102,160) 90%,
+                        rgb(117,102,160) 95%,
+                        #d9d9d6 95%,
+                        #d9d9d6 100%
+                        );
     }
 
     footer {
@@ -36,7 +66,9 @@
 
     strong {
       /* text-shadow: 4px 4px 3px #77f;  */
-      border-bottom: 4px solid rgb(88, 88, 243);
+      /* border-bottom: 4px solid rgb(117,102,160); */
+      border-bottom: 4px solid #d9d9d6;
+      /* font-weight: 900; */
     }
 
     /* table.contact td {
@@ -44,9 +76,9 @@
       text-shadow: 4px 4px 3px #77f;
     } */
 
-    code {
+    /* code {
       white-space: pre-wrap;
-    }
+    } */
 
     span.smallcaps {
       font-variant: small-caps;
@@ -62,18 +94,36 @@
       width: 50%;
     }
 
-    a {
+    /* a {
       text-decoration: none;
-      color: green;
-      /* border: 5pt solid transparent; */
-    }
+      color: rgb(117,102,160);
+      font-weight: 600;
+    } */
+    a {
+            text-decoration: none;
+            /* font-style: italic; */
+            font-weight: 600;
+            /* color: green; */
+            /* color: #1b1d36;  */
+            color: rgb(117,102,160); 
+            /* color: #473729; */
+            /* color: #d9d9d6; */
+            /* border: 5pt solid transparent; */
+            /* display: block; */
+            /* margin: 5pt; */
+            /* padding: 0; */
+        }
 
     a:hover {
-      padding-bottom: 0px;
-      border-bottom: 5pt solid rgba(88, 88, 243, 0.5);
-      border-top: 5pt solid rgba(88, 88, 243, 0.5);
+      /* background-color:  rgb(117,102,160);
+      color: rgb(222,184,59);
+      outline: 5pt solid rgb(217,217,214); */
+      /* color: rgb(117,102,160); */
+      color: #deb83b;
+      /* border-bottom: 5pt solid rgba(88, 88, 243, 0.5); */
+      /* border-top: 5pt solid rgba(88, 88, 243, 0.5); */
       /* color: rgb(231, 155, 69); */
-      background-color: rgba(88, 88, 243, 0.3);
+      /* background-color: rgba(88, 88, 243, 0.3); */
     }
 
     a.pica,
@@ -85,14 +135,20 @@
     H1,H2,H3 {
       text-align: center;
     }
+
+    p.coords {
+      text-align: center;
+    }
   </style>
 </head>
 
 <body>
   <div>
     <H1>Curriculum vitae</H1>
-    <h2>Mathematician | Postdoc Researcher </h2>
-    <h3><a href="mailto:adranows@ias.edu">adranows@ias.edu</a> | <a href="https://www.math.ias.edu/~adranows">www.math.ias.edu/~adranows</a></h3>
+    <!-- <p>Mathematician, Postdoc Researcher</p> -->
+    <p class="coords">
+      <!-- Coordinates:  -->
+      <a href="mailto:adranows@ias.edu">adranows@ias.edu</a> | <a href="https://www.math.ias.edu/~adranows">www.math.ias.edu/~adranows</a></p>
     <!-- <p><strong>Contact information</strong></p>
     <table class="contact">
       <tbody>
@@ -110,9 +166,10 @@
         </tr>
       </tbody>
     </table> -->
-    <p><strong>Research</strong></p>
+    <!-- <p><strong>Research</strong></p> -->
+    <h3><strong>Research</strong></h3>
     <p>Representation theory, algebraic geometry, combinatorial representation theory.</p>
-    <p><strong>Education</strong></p>
+    <h3><strong>Education</strong></h3>
     <p>University of Toronto, St George Ph.D. Candidate, Mathematics, July 2020<br />
       Thesis: <a href="http://www.math.toronto.edu/adranows/athesis.pdf">Comparing two pefect bases</a><br />
       Advisor: Joel Kamnitzer<br />
@@ -130,7 +187,7 @@
       <!-- <a href="https://arxiv.org/abs/1905.08460">arXiv:1905.08460</a> (2019) </p> -->
     <!-- <a class="pica" href="404.html"><img src="poster.png" height="13pt"
         style="padding: 0 3px 0 0; vertical-align: -1.5px;"></a> -->
-    <p><strong>Refereed publications</strong></p>
+    <h3><strong>Refereed publications</strong></h3>
     <p>Baumann, P. and Kamnitzer, J. and Knutson, A., <em>The Mirkovic–Vilonen basis and Duistermaat–Heckman
       measures</em> with an appendix by Dranowski, A., Kamnitzer, J. and Morton-Ferguson, C., Acta (2020)
     <a href="https://arxiv.org/abs/1905.08460">arXiv:1905.08460</a></p>
@@ -140,10 +197,12 @@
     <p>Burchard, A., Chambers, G. R. and Dranowski, A., <em>Ergodic properties of folding maps on spheres</em>, Discrete
       and Continuous Dynamical Systems-Series A (2015) <a href="https://arxiv.org/abs/1509.02454">arXiv:1509.02454</a>
     </p>
-    <p><strong>Invited talks</strong></p>
+    <h3><strong>Invited talks</strong></h3>
     <!-- UNC AWM Lecture Series -->
     <!-- <p><em>TBA</em>, Algebra and Combinatorics Seminar, Loyola. (April 2020) </p> -->
-    <p><em>TBA</em>, AMS Special Section x 2. (May 2021)</p>
+    <p><em>TBA</em>, AMS Special Section x 3. (May 2021)</p>
+    <p><em>Fusion in the BD Grassmannian via a Mirkovic-Vybornov isomorphism</em>, UMass Representation Theory Seminar. (February 2021)</p>
+    <p><em>From tensor product quiver varieties to reverse plane partitions</em>, Columbia Informal Math Physics Seminar. (December 2020)</p>
     <p><em>Reverse plane partitions and preprojective algebra modules</em>, IAS Workshop on Recent Developments in Geometric Representation Theory. (November 2020)</p>
     <p><em>Reverse plane partitions and Lusztig’s dual semicanonical basis</em>, Lacim. (November 2020) </p>
     <p><em>The glass bead game</em>, UConn Algebra Seminar. (November 2020) </p>
@@ -169,7 +228,8 @@
     <p><em>On Random Foldings</em>, <span class="math inline">8<sup><em>t</em><em>h</em></sup></span> Annual Ottawa
       Mathematics Conference, University of Ottawa. (June 2015) <a class="pica" href="omc15.pdf"><img src="slides.png"
           height="13pt" style="padding: 0 3px 0 0; vertical-align: -1.5px;"></a></p>
-    <p><strong>Posters</strong></p>
+
+    <h3><strong>Posters</strong></h3>
     <p><em>Equations of MV cycles in type A</em>, Young Topologists Meeting, EPFL. (July 2019) <a class="pica"
         href="epfl19.pdf"><img src="poster.png" height="13pt" style="padding: 0 3px 0 0; vertical-align: -1.5px;"></a>
     </p>
@@ -180,7 +240,7 @@
 
     <!-- <p><strong>Seminar &amp; colloquium talks</strong></p> -->
 
-    <p><strong>Teaching experience</strong></p>
+    <h3><strong>Teaching experience</strong></h3>
     <p>Selected Teaching Assistantships and <sup>*</sup>Teaching Appointments are
       listed below. Other teaching experience includes Girls in STEM, Fields Math Circles, U of T Math Academy, U of T
       Math Mentorship, Science Rendezvous, and private tutoring.</p>
@@ -247,7 +307,7 @@
         </tr>
       </tbody>
     </table>
-    <p><strong>Honours &amp; awards</strong></p>
+    <h3><strong>Honours &amp; awards</strong></h3>
     <table>
       <tbody>
         <tr class="even">
@@ -295,14 +355,17 @@
       </tbody>
     </table>
     <p><sup>!</sup>Supervised by Eckhard Meinrenken. <sup>#</sup>Supervised by Luis Seco.</p>
-    <p><strong>Leadership &amp; service</strong></p>
+
+    <h3><strong>Leadership &amp; service</strong></h3>
     <p>Served two terms as president of the Mathematics Graduate Student Association, and one term as vice-president and
       Graduate Student Union Representative. Served on the Departmental Library Committee, as Department Council
       Representative, and on Department Awards Committee.</p>
-    <p><strong>Organization of conferences and workshops</strong></p>
+
+    <h3><strong>Organization of conferences and workshops</strong></h3>
     <p><a href="http://jointmathematicsmeetings.org/meetings/national/jmm2020/2245_program_ss111.html#title">AMS Special
         Session</a> on Geometric Representation Theory and Equivariant Elliptic Cohomology at JMM 2020</p>
-    <p><strong>Professional development</strong></p>
+
+    <h3><strong>Professional development</strong></h3>
     <table>
       <tbody>
         <tr class="odd">
@@ -354,7 +417,7 @@
         </tr>
       </tbody>
     </table>
-    <p><strong>Skills</strong></p>
+    <h3><strong>Skills</strong></h3>
     <p>Sage, GAP, Macaulay2, Singular, LaTeX, Pandoc,
       Git, Zoom, Perusall,...</p>
     <!-- <p><strong>Contact information</strong></p> -->
@@ -394,9 +457,10 @@
       40 St. George
       Street, Toronto, ON, Canada, M5S 2E4</footer> -->
     <footer>
-      <p><img src="mail-envelope-back-hand-drawn-outline.png" height="11pt"
-        style="padding: 0 3px 0 0; vertical-align: -1.5px;">IAS School of Mathematics</p>
-        <p> <a href="index.html">home</a> | cv | <a href="research.html">research</a> </p>
+        <p> <a href="index.html">home</a> | cv | <a href="research.html">research</a> | <a href="scribbles.html">scribbles</a></p>
+
+        <p>Anne Dranowski <img src="mail-envelope-back-hand-drawn-outline.png" height="11pt"
+          style="padding: 0 3px 0 0; vertical-align: -1.5px;"> IAS School of Mathematics</p>
     </footer>
 </body>
 
