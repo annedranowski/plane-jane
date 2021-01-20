@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Anne Dranowski</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* width: 100%; height: 100%; */
+            /* background-color: pink; */
+            background: repeating-linear-gradient(
+                        to right,
+                        /* -45deg, */
+                        /* #f6ba52,
+                        #f6ba52 10px,
+                        #ffd180 10px,
+                        #ffd180 20px */
+                        /* #473729 0%, */
+                        /* #473729 10%, */
+                        #d9d9d6 0%,
+                        #d9d9d6 10%,
+                        #deb83b 10%,
+                        #deb83b 20%,
+                        /* #7566a0 30%,
+                        #7566a0 40%, */
+                        #b2b1b2 20%,
+                        #b2b1b2 80%,
+                        /* #1b1d36 80%,
+                        #1b1d36 90%, */
+                        rgb(117,102,160) 80%,
+                        rgb(117,102,160) 90%,
+                        #d9d9d6 90%,
+                        #d9d9d6 100%
+                        );
+        }
+        .wrapper {
+            /* background: pink; */
+            height: min(500px,100%);
+            top: 45%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%, -50%);
+            font-size: 29pt;
+            font-family: 'Inconsolata';
+            /* color: #1b1d36;  */
+            /* padding: 15px 17px; */
+            text-align: center;
+            display: grid;
+            grid-template-areas:
+                "t t t"
+                "s s s"
+                "s1 p s3"
+                /* "s2 p s4" */
+                /* "s5 p s6" */
+                "s7 s7 s7"
+                /* "p3 s8 p4" */
+                "f f f";
+            /* column-gap: 11px; */
+            row-gap: 15px;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            /* grid-template-columns: 10% 70% 10%; */
+            grid-template-rows: 2fr 2fr 4fr 2fr 1fr;
+            justify-content: center;
+            justify-items: center;
+            align-items: center;
+            /* align-content: end; */
+            /* fixing for mobile adjustments */
+            text-size-adjust: none;
+            -webkit-text-size-adjust: none;
+            -moz-text-size-adjust: none;
+            -ms-text-size-adjust: none;
+        }
+
+        footer {
+            font-size: 11pt;
+            text-align: center;
+            grid-area: f;
+        }
+
+        div.title {
+            font-size: 52pt;
+            grid-area: t;
+            /* padding: 5pt; */
+            /* font-size: 52pt; */
+            /* font-weight: bold; */
+            /* padding-bottom: -51pt; */
+        }
+
+        div.subtitle {
+            /* font-size: 29pt; */
+            text-align: center;
+            grid-area: s;
+        }
+
+        div.pic {
+            /* font-size:29pt; */
+            grid-area: p;
+            /* padding-top: -21pt; */
+            /* background-color: pink; */
+        }
+
+        div.stone1 {
+            grid-area: s1;
+            /* background-color: yellow; */
+        }
+
+        div.stone2 {
+            grid-area: s2;
+            /* background-color: teal; */
+            /* vertical-align: middle; TODO! figure out how to vertically align text so its in the middle of stuff */
+        }
+
+        div.stone3 {
+            grid-area: s3;
+            /* background-color: orange; */
+        }
+
+        div.stone4 {
+            grid-area: s4;
+            /* background-color: blue; */
+        }
+
+        div.stone5 {
+            grid-area: s5;
+            /* background-color: purple; */
+        }
+
+        div.stone6 {
+            grid-area: s6;
+            /* background-color: green; */
+        }
+
+        div.stone7 {
+            grid-area: s7;
+            /* font-size: 29pt; */
+        }
+
+        div.stone8 {
+            grid-area: s8;
+        }
+
+        a {
+            text-decoration: none;
+            /* font-style: italic; */
+            font-weight: 600;
+            /* color: green; */
+            color: rgb(117,102,160);
+            /* color: #1b1d36;  */
+            /* border: 5pt solid transparent; */
+            /* display: block; */
+            /* margin: 5pt; */
+            /* padding: 0; */
+        }
+
+        a:hover {
+            /* padding-bottom: 0px; */
+            /* padding: 0; */
+            /* border-bottom: 5pt solid rgba(88, 88, 243, 0.5); */
+            /* cool gray */
+            /* border-bottom: 5pt solid rgb(178,177,178);  */
+            /* border-top: 5pt solid rgba(88, 88, 243, 0.5); */
+            /* 4281 C */
+            /* border-top: 5pt solid rgb(178,177,178); */
+            /* color: rgb(231, 155, 69); */
+            /* background-color: rgba(88, 88, 243, 0.3); */
+            /* background-color:  rgb(117,102,160); */
+            /* color: rgb(222,184,59); */
+            /* color: rgb(117,102,160); */
+            color: #deb83b;
+            /* outline: 5pt solid rgb(217,217,214); */
+            /* overflow: hidden;  */
+            /* margin: -5pt; */
+        }
+
+        a.pica,
+        a.pica:hover {
+            border: none;
+            background: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <!-- <h1> -->
+            <!-- He<a href="http://www.math.toronto.edu/adranows/palette.png">ll</a>o -->
+            Hello
+            <!-- </h1> -->
+        </div>
+        <div class="subtitle">
+            <!-- <H3> -->
+            <a href="https://www.dropbox.com/sh/a76ffv3futkn9po/AAC4OsvVl-H1XCW5LTWQ0eOza?dl=0">Here</a> are my teaching and research statements, <a href="http://www.math.toronto.edu/adranows/athesis.pdf">here</a> is my thesis, and <a href="https://youtu.be/Kcis3eH4Abg">here</a> is a short talk about some of my work.
+            <!-- </H3> -->
+        </div>
+        <div class="pic">
+            <!-- <a href="https://github.com/annedranowski" class="pica"> -->
+            <img id="test" src="byebyecamoballzoom.png" height="243" alt="2 + 2 = 4"> 
+            <!-- alt="My github" -->
+            <!-- </a> -->
+                    <!-- onmouseover="this.src='ghCrop.png'" onmouseout="this.src='byebyecamoballzoom.png'" -->
+        </div>
+        <!--change me back from ../img/*; future: randomize onmouseout -->
+        <!-- <div class="stone1"><a href="misc.html">Misc.</a></div> -->
+        <div class="stone7"><a href="cv.html">cv</a> | <a href="research.html">research</a> 
+          <!--| <a href="teaching.html">teaching</a> --> 
+            | <a href="scribbles.html">scribbles</a> </div>
+        <!-- home |  -->
+        <!-- <div class="stone7"><a href="research.html">Research</a></div> -->
+        <!-- <div class="stone6"><a href="ls19.html">Learning seminar</a></div> -->
+        <!-- <div class="stone4"><a href="teaching.html">Teaching</a></div> -->
+        <!-- <div class="stone5"><a href="grt20.html">Research seminar</a></div> -->
+
+        <footer>
+            <!-- <img src="telephone-auricular-hand-drawn-outline.png" height="13pt"
+            style="padding: 0 3px 0 0;">416-978-4794 
+            <img src="skype-hand-drawn-logo-outline.png" height="13pt"
+            style="padding: 0 3px 0 0;">annedranowski  -->
+            <!-- <img src="arroba-hand-drawn-symbol.png" height="13pt" style="padding: 0 3px 0 0;"><a
+            href="mailto:adranows@math.toronto.edu" class="email">adranows@math.toronto.edu</a>  -->
+            <!-- <img src="world-grid-hand-drawn-symbol.png" height="13pt" style="padding: 0 3px 0 0;"><a
+            href="http://www.math.toronto.edu/adranows/">www.math.toronto.edu/adranows</a>  -->
+            <p>Anne Dranowski <a href="pubkey.html"><img src="mail-envelope-back-hand-drawn-outline.png" height="11pt"
+                    style="padding: 0 3px 0 0; vertical-align: -1.5px;"></a> IAS School of Mathematics</p>
+        </footer>
+    </div>
+</body>
+
+</html>
